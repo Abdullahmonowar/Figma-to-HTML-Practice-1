@@ -1,0 +1,302 @@
+/* All Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+.container {
+  width: 1032px;
+  margin: 0 auto;
+}
+
+.content {
+  width: 857px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+.margin_right_zero_maker {
+  margin-right: 0 !important;
+}
+/* All Common CSS End */
+
+/* Header Part CSS Start */
+
+#header_part {
+  padding-top: 33px;
+  padding-bottom: 162px;
+}
+.nav_bar {
+  text-align: right;
+}
+
+.nav_bar ul li {
+  padding-right: 37px;
+}
+
+.nav_bar ul li a {
+  color: #000;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.nav_bar ul li a:hover {
+  color: #ff6464;
+}
+/* Header Part CSS End */
+
+/* Banner Part CSS Start */
+#banner_part {
+  padding-bottom: 70px;
+}
+.banner_part_main_row {
+  display: flex;
+}
+
+.banner_part_text_with_btn {
+  width: 612px;
+}
+.banner_part_picture {
+  width: 242px;
+}
+
+.banner_part_picture img {
+  width: 243px;
+}
+
+.banner_part_text_with_btn h1 {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  padding-right: 120px;
+}
+.banner_part_text_with_btn p {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  width: 497px;
+  padding-bottom: 35px;
+}
+
+.banner_part_text_with_btn a {
+  color: #fff;
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px 20px;
+  background: #ff6464;
+  border-radius: 2px;
+}
+.banner_part_text_with_btn a:hover {
+  background: rgb(6, 113, 149);
+  transition: 0.5s;
+}
+/* Banner Part CSS End */
+
+/* Recent Post Part CSS Start */
+#recent_post_part {
+  padding-top: 25px;
+  padding-bottom: 32px;
+  background: #edf7fa;
+}
+.recent_post_heading_row {
+  display: flex;
+}
+
+.recent_post_heading {
+  width: 800px;
+}
+
+.recent_post_heading h3 {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 28px;
+  padding-bottom: 23px;
+}
+
+.recent_post_view_all a {
+  color: #00a8cc;
+  text-align: right;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 28px;
+  padding-bottom: 23px;
+}
+
+.recent_post_main_box_row {
+  display: flex;
+}
+.recent_post_left_box {
+  width: 418px;
+  margin-right: 20px;
+  background: #fff;
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-right: 45px;
+  padding-bottom: 30px;
+}
+.recent_post_right_box {
+  width: 418px;
+}
+.recent_post_left_box h3 {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+}
+.recent_post_left_box .date {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+.recent_post_left_box p {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 15px;
+}
+/* Recent Post Part CSS End*/
+
+/* Feature Work Part CSS Start */
+#feature_part {
+  padding-top: 35px;
+  padding-bottom: 80px;
+}
+.feature_pic_with_text_main_row {
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.feature_pic_part {
+  width: 246px;
+  margin-right: 20px;
+}
+.feature_pic_part img {
+  width: 246px;
+}
+
+.feature_text_part {
+  width: 611px;
+}
+.feature_text_part h3 {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 26px;
+}
+
+.feature_text_part_flex {
+  display: flex;
+}
+.feature_text_part_flex_left {
+  width: 60px;
+  margin-right: 35px;
+}
+.feature_text_part_flex_left h5 {
+  color: #fff;
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  background: #142850;
+  width: 62px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.feature_text_part_flex_right p {
+  color: #8695a4;
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.feature_text_part .feature_text_part_p {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 28px;
+  line-height: normal;
+}
+/* Feature Work part CSS End */
+
+/* Footer Part CSS Start */
+#footer_part {
+  padding-bottom: 58px;
+}
+.links {
+  width: 234px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+}
+.facebook img {
+  width: 30px;
+  margin-right: 35px;
+}
+
+.instagram img {
+  width: 30px;
+  margin-right: 35px;
+}
+
+.twitter img {
+  width: 37px;
+  margin-right: 35px;
+}
+.linkdn img {
+  width: 30px;
+}
+
+.copyright {
+  padding-top: 32px;
+}
+.copyright p {
+  color: #21243d;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* Footer Part CSS End */

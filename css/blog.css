@@ -1,0 +1,69 @@
+/* All Selector CSS Start */
+.padding_top_zero_maker {
+  padding-top: 0 !important;
+}
+/* All Selector CSS End */
+
+/* Blog Heading Part CSS Start */
+.content h1 {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  padding-bottom: 26px;
+}
+/* Blog Heading Part CSS End */
+
+/* Blog Body Part CSS Start */
+
+.blog_body_main {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 26px;
+  padding-top: 40px;
+}
+.blog_body_main h2 {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 23px;
+}
+
+.blog_body_main .date p {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 26px;
+}
+
+.blog_body_main p {
+  font-family: "Heebo", sans-serif;
+  color: #21243d;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 210px;
+  line-height: normal;
+}
+.blog_body_main_main {
+  margin-bottom: 50px;
+}
+/* Blog Body Part CSS End */
+
+/* Banner Part CSS Start */
+/* Banner Part CSS End */
+
+/* Banner Part CSS Start */
+/* Banner Part CSS End */
+
+/* Banner Part CSS Start */
+/* Banner Part CSS End */
+
+/* Banner Part CSS Start */
+/* Banner Part CSS End */
+
+/* Banner Part CSS Start */
+/* Banner Part CSS End */
+
+/* Banner Part CSS Start */
+/* Banner Part CSS End */
